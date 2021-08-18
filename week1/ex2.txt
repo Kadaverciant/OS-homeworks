@@ -1,0 +1,16 @@
+    1  ls | sort
+    2  ls | sort -r
+    3  ls | sort -r | tail -n r
+    4  ls | sort -r | tail -n 3
+    5  history | tail -n 10
+    6  nano list.txt &
+    7  jobs
+    8  mkdir week1
+    9  cd week1
+   10  ls /usr/bin | grep *gcc* |  sort -r > ex1.txt
+   11  ex1.txt
+   12  cat ex1.txt
+   13  ls /usr/bin | grep gcc |  sort -r > ex1.txt
+   14  cat ex1.txt
+   15  ls history > ex2.txt
+   16  history > ex2.txt
