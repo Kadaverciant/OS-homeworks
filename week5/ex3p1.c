@@ -8,8 +8,8 @@
 /*
  * This solution doesn't use semaphores and mutex.
  * if you'll comment all sleep(), then in output, you may see, that we consume some number, and some lines later we
- * produce it, but it's only because printing take some time ( I/O could affect the race conditions).
- * In order to see that all is ok I recommend to use sleep also in order to simulate the situation that
+ * produce it, but it's only because printing takes some time ( I/O could affect the race conditions).
+ * In order to see that all is ok I recommend using sleep also in order to simulate the situation that
  * producing and consuming takes some time.
  */
 int buff[10];
