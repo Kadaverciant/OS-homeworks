@@ -177,6 +177,9 @@ int main() {
     Average Waiting time = 2.333333
 
     So, for the shortest job algorithm Average Turnaround time and Average Waiting time are lower or equal
-    compared to other algorithms.
+    compared to other algorithms. But, some long processes may never be processed by 
+    the system and may remain in the queue for very long time.
+    
+    The round-robin algorithm depends on the quantum. Very large quantum makes it same to the FCFS.
  */
 
