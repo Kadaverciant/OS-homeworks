@@ -124,3 +124,59 @@ int main() {
     printf("Average Waiting time = %f\n",aWT);
 }
 
+/*
+ * For test
+    P#	AT	BT
+    P1	0	1
+    P2	0	2
+    P3	0	4
+    P4	0	6
+    P5	0	8
+    P6	11	1
+    P7	11	2
+    P8	11	4
+    P9	11	6
+    P10	11	8
+
+    For the round-robin algorithm for quantum=3:
+    Average Turnaround time = 17.900000
+    Average Waiting time = 13.700000
+
+    For the round-robin algorithm for quantum=4:
+    Average Turnaround time = 16.000000
+    Average Waiting time = 11.800000
+
+    For the round-robin algorithm for quantum=8:
+    Average Turnaround time = 14.000000
+    Average Waiting time = 9.800000
+
+    For the shortest job first algorithm:
+    Average Turnaround time = 12.100000
+    Average Waiting time = 7.900000
+
+    For the first come, first served (FCFS) algorithm:
+    Average Turnaround time = 17.600000
+    Average Waiting time = 13.400000
+
+ * For test
+    P#	AT	BT
+    P1	0	2
+    P2	0	3
+    P3	1	4
+
+    For the round-robin algorithm for quantum=3:
+    Average Turnaround time = 5.000000
+    Average Waiting time = 2.000000
+
+    For the shortest job first algorithm:
+    Average Turnaround time = 5.000000
+    Average Waiting time = 2.000000
+
+    For the first come, first served (FCFS) algorithm:
+    Average Turnaround time = 5.333333
+    Average Waiting time = 2.333333
+
+    So, for the shortest job algorithm Average Turnaround time and Average Waiting time are lower or equal
+    compared to other algorithms.
+ */
+
