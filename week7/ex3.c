@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "time.h"
-
+//parts of code were provided by TA
 
 int main(){
     //Allows you to generate random number
