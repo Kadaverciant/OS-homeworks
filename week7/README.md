@@ -1,1 +1,1 @@
-Solution for tasks for OS lab week 6
+Solution for tasks for OS lab week 7
