@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   2230	    632	      8	   2870	    b36	ex2
