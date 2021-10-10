@@ -1,0 +1,3 @@
+Physical memory is directly related to the amount of RAM on the machine,
+while virtual memory is a way to execute programs that require more memory
+than physical memory and work. It works by moving pages from RAM to hard disk and back.
