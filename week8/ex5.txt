@@ -1,3 +1,5 @@
+Physical address is strictly tied to the address of the cell on the chip, while the virtual address 
+points to a cell in virtual memory that is not tied to a specific physical memory cell.
 Physical memory is directly related to the amount of RAM on the machine,
 while virtual memory is a way to execute programs that require more memory
 than physical memory and work. It works by moving pages from RAM to hard disk and back.
