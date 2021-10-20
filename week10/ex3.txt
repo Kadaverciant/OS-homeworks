@@ -1,0 +1,6 @@
+-rw-rw-r-- 1 vsevolod vsevolod 9 окт 20 19:37 _ex3.txt
+-rwxrw-rwx 1 vsevolod vsevolod 9 окт 20 19:37 _ex3.txt
+-rwxrwxrwx 1 vsevolod vsevolod 9 окт 20 19:37 _ex3.txt
+660 means rw for owner, rw for group, - for other
+775 means rwx for owner, rwx for group, rx for other
+777 means rwx for owner, rwx for group, rwx for other
