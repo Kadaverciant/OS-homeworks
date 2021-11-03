@@ -1,0 +1,24 @@
+//example of the output
+List of shortcuts:
+1) pe
+2) cat
+3) lion
+4) winter
+p
+ -I passed the Exam!
+e
+ca
+ -Get some cappucino!
+t
+lio
+ -Gaoo!
+n
+winte
+ -PADORU-PADORU!!!
+r
+ep
+ -I passed the Exam!
+eqwe
++-r
+winte
+ -PADORU-PADORU!!!
