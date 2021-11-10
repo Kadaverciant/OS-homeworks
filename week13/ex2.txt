@@ -1,0 +1,20 @@
+Theory covered three strategies of dealing with deadlocks:
+recovery, prevention and avoidance.
+
+Recovery (for real-time os):
+1) Through preemption (give resources from one process to others, might trigger starvation)
+2) Through rollback (need to save bookmarks for it)
+3) Through killing (kill processes one by one and check when deadlock will disappear)
+
+Prevention (eliminate one of the conditions for existing of deadlocks):
+1) Mutual-Exclusion (bad idea, since we've got non-sharable resources i.e. printer)
+2) Hold-and-Wait (1 - allocate all required resources to the process before the start of its execution,
+    reduce efficiency of resources usage. 2 -ask resources after releasing the current set of resources,
+    might lead to starvation)
+3) No-Preemption (Preempt resources from the process when resources required by other high priority processes.)
+4) Circular wait
+
+Avoidance:
+- Banker's Algorithm (Algorithm checks for the safe state, if there is no safe state,
+it doesn't allow the request of some process. Has complexity O(m*n^2) where n - number of processes and m - number of
+types of resources)
